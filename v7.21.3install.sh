@@ -15,7 +15,7 @@ TAG="v7.21.3"
 if [ -d /sys/firmware/efi ]; then
     echo "环境检测: [UEFI 模式]"
     # UEFI 使用标准包
-    IMG_URL="https://github.com/${GITHUB_REPO}/releases/download/${TAG}/chr-7.21.3.img"
+    IMG_URL="https://github.com/qq48674431/jing-routeros-dong/releases/download/v7.21.3/chr-7.20.6.img"
 else
     echo "环境检测: [BIOS 模式]"
     # BIOS 使用 Legacy 专用包
